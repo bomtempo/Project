@@ -1,0 +1,72 @@
+Iniciando o HTML e CSS
+
+Modúlo 3
+
+O que é CSS
+* Estilos para o HTML
+* Cascading Style Sheets
+	Folha de Estio em Cascata
+* Apresentação visual para o cliente
+----
+Composto por declarações
+
+* Declaração
+	Pedaço de código que irá ditar as propriedades e valores a serem aplicados a um elemento HTML.
+
+* Como escrevemos?
+	Body {
+		background: black;
+		/* color: green; Essa linha será ignorado pois está comentada */
+	     }
+
+Cascata: Quando há 2 ou mais declarações a última será mais relevante.
+
+Especificidade: Casa seletor tem um peso e a soma dos pesos, será levada em conta para que determinada declaração seja mais específica.
+
+#id {
+	/* peso 100 */
+    }
+----
+#class {
+	/* peso 100 */
+    }
+----
+elemento {
+	/* peso 100 */
+    }
+
+A cascata perde prioridade e é priorizada a especificidade da declaração.
+----
+
+Box model
+
+* Tudo são caixas: Todos os elementos HTML serão considerados uma caixa, assim como uma caixa de papelão.
+----
+* Caixas possuem determinadas propriedades: Conteúdo, largura, altura, borda, preenchimento (espaço interno), espaçamento (espaço externo).
+
+css tricks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
